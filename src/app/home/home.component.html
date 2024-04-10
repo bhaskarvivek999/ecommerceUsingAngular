@@ -1,0 +1,81 @@
+
+	<ngb-carousel *ngIf="popularProducts">
+		<ng-template ngbSlide  *ngFor="let item of popularProducts" >
+			<div class="picsum-img-wrapper">
+
+				<a routerLink="/product-details/{{item.id}}">
+				<img [ngClass]="['product-header-img']" src="{{item.image}}" alt="Random first slide" />
+				</a>
+
+			</div>
+			<div  class="carousel-caption">
+				<h3>{{item.name}}</h3>
+				<p>{{item.description}}</p>
+			</div>
+		</ng-template>
+	</ngb-carousel>
+
+
+ <div [ngClass]="['product-list-wrapper']">
+		<h1>Trendy Product</h1>
+		<div class="row">
+			<div class="col-sm-3" *ngFor="let item of trendyProduct">
+				<div [ngClass]="['product-item']">
+
+					<a routerLink="/product-details/{{item.id}}">
+						<img src="{{item.image}}" alt="">
+					</a>
+
+				<div [ngClass]="['product-details']">
+
+					<div  [ngClass]="['product-details2']">
+
+						<div [ngClass]="['product-name']">
+							<h6 [ngClass]="['name-head']">{{item.name}}</h6>
+						</div>
+						<div [ngClass]="['product-price']">
+							<h6>price : {{item.price  | currency:'INR' }}</h6>
+						</div>
+				   </div>
+					<div [ngClass]="['product-color']">
+						<h6>color : {{item.color}}</h6>
+					</div>
+				</div>
+
+				<div [ngClass]="['product-footer']">
+					<a routerLink="/product-details/{{item.id}}">View Details</a>
+					
+				</div>
+
+			</div>
+
+			</div>
+		</div>
+		
+	</div> 
+
+<!-- ##################################################################################  -->
+
+
+
+<!-- <div [ngClass]="['row']"  >
+
+	<div  [ngClass]="['col-sm-2']"  *ngFor="let item of trendyProduct">
+		<a   [ngClass]="['E_deco']"  href="#">
+		<div [ngClass]="['sldimgdiv']">
+			<img    [ngClass]="['img-fluid center']"  src="{{item.image}}"  alt="">
+		</div>
+		<div  [ngClass]="['sldtxtdiv']">
+		  <span  [ngClass]="['sldtxtspan1']" >{{item.price}}</span>
+		  <span  [ngClass]="['sldtxtspan2']" >{{item.name}}</span>
+		  <br>
+		  <span   [ngClass]="['sldtxtspan3']">Color : {{item.color}}</span>
+		</div>
+	  </a>
+	  </div>
+</div>
+ -->
+
+
+
+

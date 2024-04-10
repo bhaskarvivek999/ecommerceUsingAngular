@@ -1,0 +1,16 @@
+.my-order{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.order-img{
+    height: 80px;
+}
+
+.order-data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}

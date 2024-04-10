@@ -1,0 +1,391 @@
+{
+  "seller": [
+    {
+      "id": "62ee",
+      "name": "Vivek",
+      "email": "vivek@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "7210",
+      "name": "ss",
+      "password": "1234",
+      "email": "ss@gmail.com"
+    },
+    {
+      "id": "30c5",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "ab88",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "e370",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "f4d1",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "4667",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "bc15",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "ba06",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "fddf",
+      "name": "aa",
+      "password": "aa11",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "a52e",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "84cf",
+      "name": "qq",
+      "password": "1234",
+      "email": "qq@gmail.com"
+    },
+    {
+      "id": "c079",
+      "name": "aa",
+      "password": "1234",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "295a",
+      "name": "aa",
+      "password": "aaaa",
+      "email": "aa@gmail.com"
+    },
+    {
+      "id": "f6dd",
+      "name": "qq",
+      "password": "1234",
+      "email": "qq@gmail.com"
+    },
+    {
+      "id": "d78c",
+      "name": "ww",
+      "password": "1234",
+      "email": "ww@gmail.com"
+    },
+    {
+      "id": "358c",
+      "name": "ram",
+      "password": "1234",
+      "email": "ram@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung ",
+      "price": "50000",
+      "color": "gray",
+      "category": "mobile",
+      "description": "best in year",
+      "image": "https://www.91-img.com/pictures/153144-v7-samsung-galaxy-f15-mobile-phone-large-1.jpg?tr=q-80",
+      "id": "9fb9"
+    },
+    {
+      "name": "HP laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "best",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1696516772/Croma%20Assets/Computers%20Peripherals/Laptop/Images/275165_0_tdfr2q.png?tr=w-400",
+      "id": "3df4"
+    },
+    {
+      "name": "dell laptop",
+      "price": "120000",
+      "color": "white",
+      "category": "laptop",
+      "description": "best quality",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1698404618/Croma%20Assets/Computers%20Peripherals/Laptop/Images/301778_db7yfa.png?tr=w-360",
+      "id": "a132"
+    },
+    {
+      "name": "Nike shoes",
+      "price": "1200",
+      "color": "black",
+      "category": "shoes",
+      "description": "best in series",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7e3676c1-f3b9-4004-9425-a42454e6b2f1/dunk-low-shoes-W544sp.png",
+      "id": "1dbd"
+    },
+    {
+      "name": "Asus laptop",
+      "price": "140000",
+      "color": "blue",
+      "category": "aa",
+      "description": "aa",
+      "image": "https://www.reliancedigital.in/medias/Asus-Vivobook-S15EVO-L701WS-Laptop-492850169-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MjYzMnxpbWFnZS9qcGVnfGltYWdlcy9oNDEvaDRkLzEwMTExMzE5NzY5MTE4LmpwZ3w4ZWQwOWJhMGVjYjliMTA4Y2NhZmJmNGMzYzVmMTBiNDJiMGU0YTdhNGE1MWNkNWQ3OTQ4Y2U2NzViNWQyYzFi",
+      "id": "334f"
+    },
+    {
+      "id": "18b7",
+      "name": "Iphone 14",
+      "price": "100000",
+      "color": "black",
+      "category": "mobiles",
+      "description": "best Mobile",
+      "image": "https://www.91-img.com/gallery_images_uploads/0/e/0ebdcb79e919183de3974d52c5cbb60ae242bb4c.JPG?tr=h-550,w-0,c-at_max",
+      "quantity": 1,
+      "userId": "682d",
+      "productId": "7e7f"
+    }
+  ],
+  "users": [
+    {
+      "id": "682d",
+      "name": "vivek",
+      "email": "vivek@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fc68",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "c481",
+      "name": "qq",
+      "email": "qq",
+      "password": "qq"
+    },
+    {
+      "id": "64cd",
+      "name": "aa",
+      "email": "a",
+      "password": "s"
+    },
+    {
+      "id": "b492",
+      "name": "aaaaa",
+      "email": "aaaaa",
+      "password": "aaaaaa"
+    },
+    {
+      "id": "7b03",
+      "name": "aaaa",
+      "email": "aaaa",
+      "password": "aaaa"
+    },
+    {
+      "id": "6808",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "0700",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "93a4",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "ee0c",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "93b7",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "58d6",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "09b0",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "93e2",
+      "name": "vivek",
+      "email": "vivek123@gmail.com",
+      "password": "vivek1123"
+    },
+    {
+      "id": "2c22",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "3b89",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "ac59",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "ff19",
+      "name": "aa",
+      "email": "aa",
+      "password": "aa"
+    },
+    {
+      "id": "9055",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "31e2",
+      "name": "vivek",
+      "email": "vivek12",
+      "password": "1234"
+    },
+    {
+      "id": "0e7b",
+      "name": "asas",
+      "email": "asas@gamil.com",
+      "password": "asas"
+    },
+    {
+      "id": "6e5e",
+      "name": "bhaskar",
+      "email": "bhaskar@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "a2ca",
+      "name": "Ram ",
+      "email": "ram@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "5f70",
+      "name": "vr",
+      "email": "vr@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ed90",
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "8ee3",
+      "name": "sham",
+      "email": "sham@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "cart": [
+    {
+      "id": "73be",
+      "name": "Puma Shoes",
+      "price": "1000",
+      "color": "white",
+      "category": "shoes",
+      "description": "best shoes",
+      "image": "https://www.91-img.com/gallery_images_uploads/2/5/252ea8359e6d32874ef6dc7fd59c9660138619f6.JPG?tr=h-550,w-0,c-at_max",
+      "quantity": 1,
+      "userId": "6e5e",
+      "productId": null
+    },
+    {
+      "id": "fc23",
+      "name": "HP laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "best",
+      "image": "https://www.91-img.com/gallery_images_uploads/2/5/252ea8359e6d32874ef6dc7fd59c9660138619f6.JPG?tr=h-550,w-0,c-at_max",
+      "quantity": 1,
+      "userId": "6e5e",
+      "productId": "3df4"
+    },
+    {
+      "id": "aab0",
+      "name": "Puma Shoes",
+      "price": "1000",
+      "color": "white",
+      "category": "shoes",
+      "description": "best shoes",
+      "image": "https://www.91-img.com/gallery_images_uploads/2/5/252ea8359e6d32874ef6dc7fd59c9660138619f6.JPG?tr=h-550,w-0,c-at_max",
+      "quantity": 1,
+      "userId": "8ee3",
+      "productId": null
+    },
+    {
+      "id": "2597",
+      "name": "HP laptop",
+      "price": "100000",
+      "color": "black",
+      "category": "laptop",
+      "description": "best",
+      "image": "https://www.91-img.com/gallery_images_uploads/2/5/252ea8359e6d32874ef6dc7fd59c9660138619f6.JPG?tr=h-550,w-0,c-at_max",
+      "quantity": 1,
+      "userId": "682d",
+      "productId": "3df4"
+    }
+  ],
+  "orders": [
+    {
+      "id": "a797",
+      "email": "vivek@gmail.com",
+      "address": "pune",
+      "contact": "875454",
+      "totalPrice": 3050,
+      "userId": "682d"
+    },
+    {
+      "id": "51b3",
+      "email": "vivek@gmail.com",
+      "address": "pune",
+      "contact": "87545454",
+      "totalPrice": 3050,
+      "userId": "682d"
+    }
+  ]
+}

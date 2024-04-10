@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgb(218, 218, 218);
+    
+}
+
+
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    
+    list-style-type:none;
+    font-size: large;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color : blueviolet;
+    
+    
+}

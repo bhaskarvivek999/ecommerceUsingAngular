@@ -1,0 +1,145 @@
+
+<!--
+
+<div [ngClass]="['']">
+    <div [ngClass]="['']">
+        <nav [ngClass]="['nav']">
+            <div [ngClass]="['','']">
+               
+               <h1><a routerLink="/" >E-COMMERS</a></h1>
+            </div>
+            
+            <div *ngIf="menuType!=='seller'" [ngClass]="['nav-search']">
+                <input type="text" #searchInput 
+                 (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for prducts" >
+                <button (click)="submitSearch(searchInput.value)">Search</button>
+            </div>
+
+
+            <ul [ngClass]="['suggested-result']"  *ngIf="searchResult" >
+                <li *ngFor="let item of searchResult">
+                    <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+                </li>
+            </ul>
+
+
+            <div [ngSwitch]="menuType" [ngClass]="['']">
+                
+                <ul *ngSwitchCase="'default'" [ngClass]="['inline']">
+                    <li><a routerLink="/home" >Home</a></li>
+                    <li><a routerLink="/seller-auth">Seller</a></li>
+                    <li><a routerLink="/user-auth">Login/SignUp</a></li>
+                    <li><a href="#">Cart({{cartItem}})</a></li>       
+                </ul>
+
+                <ul *ngSwitchCase="'user'" [ngClass]="['inline']">
+                    <li><a routerLink="/home" >Home</a></li>
+                    <li><a routerLink="/seller-auth">{{userName | titlecase }}</a></li>
+                    <li><a (click)="userLogout()">LogOut</a></li>
+                    <li><a routerLink="/my-order">My Orders</a></li>
+
+                    <li><a [routerLink]="cartItem>0?'my-cart':null">Cart({{cartItem}})</a></li>       
+                </ul>
+
+
+                <ul *ngSwitchCase="'seller'" [ngClass]="['inline']">
+                    <li><a routerLink="/seller-home" >Product List</a></li>
+                    <li><a routerLink="/seller-add-product">Add Product</a></li>
+                    <li><a (click)="logout()">Logout</a></li>
+                    <li><a href="#">{{sellerName | titlecase}}</a></li>
+                    
+                </ul>
+
+            </div>
+            
+             
+        </nav>
+    </div>
+</div>
+
+-->
+
+<!--8888888888888888888888888888888888888888888888888888888888888888888888888888888888888-->
+
+
+
+
+<div [ngClass]="['container-fluid']">
+    <div [ngClass]="['row'  ,'sticky-top']" >
+            <nav  [ngClass]="['bg-black']" >
+
+                <div [ngClass]="['row']" >
+                    <div  [ngClass]="['col-sm-3','header-div1']" >
+                        <div [ngClass]="['header-div2']" >
+                            <a href="#"><img src="./assets/mainLogo.PNG"  alt=""></a>
+                          </div>
+
+                          <div [ngClass]="['header-div3']">
+                            <img  src="./assets/loc.png"  alt="">
+                          </div>
+
+                          <div [ngClass]="['header-div4']">
+                            <a href="#"  >
+                              <span [ngClass]="['f11','E_font']" >Delivering to Pune 411001</span><br>
+                            </a>
+                          </div>
+                    </div>
+
+                    <div  [ngClass]="['col-sm-4']" >
+
+                          <div *ngIf="menuType!=='seller'" [ngClass]="['input-group','search-div']">
+                            <input type="text" #searchInput [ngClass]="['form-control']" placeholder="Search Amazon.in"
+                             (keyup)="searchProduct($event)" (blur)="hideSearch()">
+                            <button (click)="submitSearch(searchInput.value)"   [ngClass]="['btn','btn-warning']" type="button"  aria-expanded="false"  >
+                                <img src="./assets/search.png" alt="">
+                            </button>
+                        </div>
+                        <ul [ngClass]="['suggested-result']"  *ngIf="searchResult" >
+                            <li *ngFor="let item of searchResult">
+                                <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div  [ngClass]="['col-sm-5']" >
+
+                        <div [ngSwitch]="menuType" [ngClass]="['header-menu']">
+                
+                            <ul *ngSwitchCase="'default'" [ngClass]="['inline']">
+                                <li><a routerLink="/home" >Home</a></li>
+                                <li><a routerLink="/seller-auth">Seller</a></li>
+                                <li><a routerLink="/user-auth">Login/SignUp</a></li>
+                                <li><a href="#">Cart({{cartItem}})</a></li>       
+                            </ul>
+            
+                            <ul *ngSwitchCase="'user'" [ngClass]="['inline']">
+                                <li><a routerLink="/home" >Home</a></li>
+                                <li><a routerLink="/seller-auth">{{userName | titlecase }}</a></li>
+                                <li><a (click)="userLogout()">LogOut</a></li>
+                                <li><a routerLink="/my-order">My Orders</a></li>
+            
+                                <li><a [routerLink]="cartItem>0?'my-cart':null">Cart({{cartItem}})</a></li>       
+                            </ul>
+            
+            
+                            <ul *ngSwitchCase="'seller'" [ngClass]="['inline']">
+                                <li><a routerLink="/seller-home" >Product List</a></li>
+                                <li><a routerLink="/seller-add-product">Add Product</a></li>
+                                <li><a (click)="logout()">Logout</a></li>
+                                <li><a href="#">{{sellerName | titlecase}}</a></li>
+                                
+                            </ul>
+            
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </nav>
+    </div>
+
+</div>
